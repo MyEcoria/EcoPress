@@ -47,12 +47,10 @@ contract BlockonomiToken is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "BlockonomiToken";
-        symbol = "BKM";
+        name = "MyEcoria";
+        symbol = "ECO";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        description: "Ecoria est un token qui a pour but de financer des petits projets...",    
-        image= "https://raw.githubusercontent.com/MyEcoria/publish/main/token/images/86317120.png",    
+        _totalSupply = 1000000000000000000000000000000;     
  
         balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);
