@@ -48,7 +48,7 @@ contract BlockonomiToken is ERC20Interface, SafeMath {
      */
     constructor() public {
         name = "MyEcoria";
-        symbol = "ECO";
+        symbol = "MEC";
         decimals = 18;
         _totalSupply = 1000000000000000000000000000000;     
  
