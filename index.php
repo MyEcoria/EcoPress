@@ -19,9 +19,8 @@
           // acc\u00e9der \u00e0 l'\u00e9l\u00e9ment appropri\u00e9
           echo $obj[0]->balance;
         ?>
-       <!-- <progress id="barre" value="<?php echo $obj[0]->balance; ?>" max="100"></progress>-->
-        <progress id="barre" value="50" max="100"></progress>
-
+       <progress id="barre" value="<?php echo $obj[0]->balance; ?>" max="100"></progress>
+       
        <p>Un paragraphe</p>
 
     </body>
